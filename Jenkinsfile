@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/ТВОЕТО_ПОТРЕБИТЕЛСКО_ИМЕ/ИМЕТО_НА_РЕПОТО.git'
+                git 'https://github.com/KaloyanNikolov2021/VOT-Jenkins-Project.git'
             }
         }
 
