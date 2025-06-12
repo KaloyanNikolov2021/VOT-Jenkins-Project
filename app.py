@@ -23,15 +23,15 @@ def home():
         </style>
     </head>
     <body>
-        <h1>Проект за виртуализация и облачни технологии</h1>
-        <p>Добре дошли! Вижте колко време сте на сайта и текущото локално време за София.</p>
+        <h1>Tova e moq proekt po VOT s Jenkins</h1>
+        <p>Welcome. Tuk mojete da vidite kolko vreme izpolzvate tozi site i kolko e chasa</p>
 
         <div class="timer">
-            Време на сайта: <span id="timer">0</span> секунди
+            Izgubeno vreme na tozi site: <span id="timer">0</span> sec
         </div>
 
         <div class="clock">
-            Часовник София: <span id="sofiaClock">{{ sofia_time }}</span>
+            Chasa v Sofia: <span id="sofiaClock">{{ sofia_time }}</span>
         </div>
 
         <script>
