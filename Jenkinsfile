@@ -8,6 +8,13 @@ pipeline {
             }
         }
 
+        stage('Check python and pip') {
+            steps {
+                bat 'python --version'
+                bat 'pip --version'
+            }
+        }
+
         stage('Install dependencies') {
             steps {
                 bat '"C:\\Users\\kaloy\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" -m pip install -r requirements.txt'
